@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: url(mars.jpg);
+    background-size:cover ;
+    background-position:center;
+    height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+  }
+  
+  
+
+
+  #banner{
+     
+      top: 0;
+      left: 0;
+      width:100%;
+      padding: 30px 100px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 450px;
+  }
+
+  #banner ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  #banner ul li{
+      list-style: none;
+      margin-left: 20px;
+  }
+
+  #banner ul li a{
+      text-decoration: none;
+      padding: 6px 15px;
+      color: #fff;
+      border-radius: 40px;
+  }
+
+  #banner ul li a:hover{
+      background: linear-gradient(45deg,rgb(185,45,3),rgb(221,136,110));
+      box-shadow: 0 0 30px #691f01 , 0 0 40px #975c41;
+      color: rgb(59,13,7);
+  }
+
+  #banner ul li a.active{
+      background: linear-gradient(45deg,rgb(61,1,1),rgb(131,6,2));
+      color:#fff;
+  }
+
+  #banner ul li a.active:hover{
+      box-shadow: 0 0 30px #3f0404, 0 0 40px #5a0f0c;
+
+  }
+  
+  .logo{
+      margin-top: 250px;
+  }
+      
+  
